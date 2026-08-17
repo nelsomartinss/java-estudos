@@ -12,7 +12,7 @@ public class Ex013 {
         int numberOfPeople, id, idSalary;
         String name;
         double salary, percent;
-        Employee employeeIncrease = null;
+        Employee employeeIncrease;
 
         System.out.print("\nHow many people do you want to add?: ");
         numberOfPeople = sc.nextInt();
